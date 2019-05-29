@@ -13,7 +13,7 @@ namespace ProjectEuler
             //the purpose of this is to make my way through the first 60 problems from
             //https://projecteuler.net/archives
 
-            ClassHelper.Problem_50.Solve();
+            ClassHelper.FetchProblem<ClassHelper.Problem_51>().Solve();
 
             Console.ReadKey();
         }
